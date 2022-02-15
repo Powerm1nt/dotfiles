@@ -14,6 +14,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'projekt0n/github-nvim-theme'
     Plug 'tpope/vim-fugitive'
     Plug 'rbong/vim-flog'
+    Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
@@ -41,6 +42,7 @@ nnoremap <silent> <space>s :<C-u>CocList -I symbols<cr>
 nnoremap <silent> <space>d :<C-u>CocList diagnostics<cr>
 nmap <leader>do <Plug>(coc-codeaction)
 nmap <leader>rn <Plug>(coc-rename)
+noremap <silent> <C-S>  :update<CR>
 
 " COC completion settings
 let g:coc_global_extensions = [
