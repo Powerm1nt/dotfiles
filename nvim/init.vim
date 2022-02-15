@@ -15,6 +15,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'rbong/vim-flog'
     Plug 'jiangmiao/auto-pairs'
+    Plug 'qpkorr/vim-bufkill'
 
 call plug#end()
 
