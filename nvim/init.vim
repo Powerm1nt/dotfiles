@@ -20,12 +20,12 @@ call plug#begin('~/.vim/plugged')
 call plug#end()
 
 " Indents settings
-set tabstop=3
-set shiftwidth=3
-set softtabstop=3
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set smarttab
 set autoindent
-set shiftwidth=4
+set shiftwidth=2
 set expandtab
 
 " NERDTree settings
