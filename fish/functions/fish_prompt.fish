@@ -22,8 +22,9 @@ function fish_prompt
 
     set -g __fish_git_prompt_showupstream auto
     printf (fish_git_prompt)
-
+    
+    echo # New line
     set_color brcyan -o
-    printf ' >>> '
+    printf '>>> '
     set_color normal
 end
