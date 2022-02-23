@@ -60,6 +60,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 
 " Color schemes
+let g:dark_float = "true"
 colorscheme github_dark
 
 " autocmds
