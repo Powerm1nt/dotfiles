@@ -26,9 +26,9 @@ disk "/" {
 }
 
 memory {
-        format = "%used | %available"
-        threshold_degraded = "800M"
-        format_degraded = "MEMORY < %available"
+        format = "%used"
+        threshold_degraded = "450M"
+        format_degraded = "⚠️ %used"
 }
 
 tztime local {
