@@ -78,3 +78,6 @@ colorscheme github_dark
 " autocmds
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
+" autopairs config
+au FileType html let b:AutoPairs = AutoPairsDefine({'<!--' : '-->'}, ['{'])
+au FileType xml let b:AutoPairs = AutoPairsDefine({'<!--' : '-->'}, ['{'])
