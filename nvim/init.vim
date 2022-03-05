@@ -16,6 +16,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'rbong/vim-flog'
     Plug 'jiangmiao/auto-pairs'
     Plug 'qpkorr/vim-bufkill'
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
 call plug#end()
 
