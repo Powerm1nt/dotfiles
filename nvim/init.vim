@@ -17,6 +17,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'jiangmiao/auto-pairs'
     Plug 'qpkorr/vim-bufkill'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'nvim-lua/plenary.nvim'
+    Plug 'windwp/nvim-spectre'
 
 call plug#end()
 
@@ -45,6 +47,14 @@ nnoremap <silent> <space>d :<C-u>CocList diagnostics<cr>
 nmap <leader>do <Plug>(coc-codeaction)
 nmap <leader>rn <Plug>(coc-rename)
 noremap <silent> <C-S>  :update<CR>
+nnoremap <leader>S <cmd>lua require('spectre').open()<CR>
+
+"search current word
+nnoremap <leader>sw <cmd>lua require('spectre').open_visual({select_word=true})<CR>
+vnoremap <leader>s <cmd>lua require('spectre').open_visual()<CR>
+"  search in current file
+nnoremap <leader>sp viw:lua require('spectre').open_file_search()<cr>
+" run command :Spectre
 
 " COC completion settings
 let g:coc_global_extensions = [
