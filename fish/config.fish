@@ -1,4 +1,5 @@
-export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH" # Cargo config
+export PATH="$HOME/.bin:$PATH" # git-repo tool
 
 alias gstat="git status"
 alias gsco="git commit"
