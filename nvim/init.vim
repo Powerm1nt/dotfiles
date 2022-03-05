@@ -46,8 +46,8 @@ nnoremap <silent> <space>s :<C-u>CocList -I symbols<cr>
 nnoremap <silent> <space>d :<C-u>CocList diagnostics<cr>
 nmap <leader>do <Plug>(coc-codeaction)
 nmap <leader>rn <Plug>(coc-rename)
-noremap <silent> <C-S>  :update<CR>
-nnoremap <leader>S <cmd>lua require('spectre').open()<CR>
+nmap <silent> <C-S>  :update<CR>
+nmap <C-F> <cmd>lua require('spectre').open()<CR>
 
 "search current word
 nnoremap <leader>sw <cmd>lua require('spectre').open_visual({select_word=true})<CR>
