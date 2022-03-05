@@ -1,0 +1,27 @@
+[user]
+	email = sundev79@nutdevs.org
+	name = Sundev79
+
+[core]
+	quotePath = false
+  commitGraph = true
+  pager = delta
+
+[receive]
+	advertisePushOptions = true
+	procReceiveRefs = refs/for
+
+[gc]
+  writeCommitGraph = true
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true  # use n and N to move between diff sections
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
