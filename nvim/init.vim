@@ -17,8 +17,6 @@ call plug#begin('~/.vim/plugged')
     Plug 'jiangmiao/auto-pairs'
     Plug 'qpkorr/vim-bufkill'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    Plug 'ray-x/guihua.lua'  "lua GUI lib
-    Plug 'ray-x/sad.nvim'
 
 call plug#end()
 
