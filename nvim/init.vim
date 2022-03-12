@@ -50,8 +50,9 @@ nmap <leader>do <Plug>(coc-codeaction)
 nmap <leader>rn <Plug>(coc-rename)
 nmap <silent> <C-S>  :update<CR>
 nmap <C-F> <cmd>lua require('spectre').open()<CR>
-
-"search current word
+" Indent fast with F7
+map <F7> gg=G<C-o><C-o>
+search current word
 nnoremap <leader>sw <cmd>lua require('spectre').open_visual({select_word=true})<CR>
 vnoremap <leader>s <cmd>lua require('spectre').open_visual()<CR>
 "  search in current file
