@@ -21,6 +21,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'windwp/nvim-spectre'
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
     Plug 'alvan/vim-closetag'
+    Plug 'maxmellon/vim-jsx-pretty'
+    Plug 'gorodinskiy/vim-coloresque'
 
 call plug#end()
 
@@ -60,13 +62,15 @@ nnoremap <leader>sp viw:lua require('spectre').open_file_search()<cr>
 
 " COC completion settings
 let g:coc_global_extensions = [
-  \ 'coc-tsserver',
   \ 'coc-json',
   \ 'coc-css',
-  \  'coc-eslint',
   \  'coc-prettier',
+  \  'coc-eslint',
   \  'coc-highlight'
   \ ]
+
+" Disabled
+" coc-tsserver
 
 " Airline settings
 let g:airline#extensions#tabline#enabled = 1
