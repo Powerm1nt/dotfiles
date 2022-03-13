@@ -6,6 +6,7 @@
 	quotePath = false
   commitGraph = true
   pager = delta
+  editor = nvim
 
 [receive]
 	advertisePushOptions = true
