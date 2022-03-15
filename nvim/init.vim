@@ -3,6 +3,7 @@ set mouse=a       " Full enable mouse suppore
 set number        " Enable numbers
 set encoding=UTF-8
 set cursorline
+set clipboard=unnamed
 
 " Plugin manager
 call plug#begin('~/.vim/plugged')
