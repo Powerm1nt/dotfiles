@@ -24,6 +24,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'alvan/vim-closetag'
     Plug 'maxmellon/vim-jsx-pretty'
     Plug 'gorodinskiy/vim-coloresque'
+    Plug 'vim-airline/vim-airline-themes'
+
 
 call plug#end()
 
@@ -76,6 +78,7 @@ let g:coc_global_extensions = [
 " Airline settings
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
+let g:airline_theme='minimalist'
 
 " Color schemes
 let g:dark_float = "true"
@@ -130,3 +133,4 @@ let g:closetag_shortcut = '>'
 " Add > at current position without closing the current tag, default is ''
 "
 let g:closetag_close_shortcut = '<leader>>'
+
