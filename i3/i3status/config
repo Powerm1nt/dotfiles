@@ -27,7 +27,7 @@ disk "/" {
 
 memory {
         format = "%used"
-        threshold_degraded = "450M"
+        threshold_degraded = "300M"
         format_degraded = "⚠️ %used"
 }
 
