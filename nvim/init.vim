@@ -26,7 +26,6 @@ call plug#begin('~/.vim/plugged')
     Plug 'gorodinskiy/vim-coloresque'
     Plug 'vim-airline/vim-airline-themes'
 
-
 call plug#end()
 
 " Indents settings
