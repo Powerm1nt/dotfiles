@@ -1,5 +1,7 @@
 export PATH="$HOME/.cargo/bin:$PATH" # Cargo config
 export PATH="$HOME/.bin:$PATH" # git-repo tool
+export GPG_TTY=(tty)
+export JAVA_HOME=/usr/lib/jvm/default
 
 alias gstat="git status"
 alias gsco="git commit"
