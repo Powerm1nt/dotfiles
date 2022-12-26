@@ -1,5 +1,5 @@
 " General settings
-set mouse=a       " Full enable mouse suppore
+set mouse=a       " Full enable mouse support
 set number        " Enable numbers
 set encoding=UTF-8
 set cursorline
@@ -71,10 +71,8 @@ let g:coc_global_extensions = [
   \  'coc-prettier',
   \  'coc-eslint',
   \  'coc-highlight'
+  \  'coc-tsserver'
   \ ]
-
-" Disabled
-" coc-tsserver
 
 " Airline settings
 let g:airline#extensions#tabline#enabled = 1
