@@ -25,6 +25,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'maxmellon/vim-jsx-pretty'
     Plug 'gorodinskiy/vim-coloresque'
     Plug 'vim-airline/vim-airline-themes'
+    Plug 'nvim-tree/nvim-web-devicons'
+    Plug 'romgrk/barbar.nvim'
 
 call plug#end()
 
